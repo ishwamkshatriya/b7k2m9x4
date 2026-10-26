@@ -1,0 +1,8 @@
+[tool.vercel]
+entrypoint = "index:app"
+
+[tool.vercel.scripts]
+build = "python scripts/vercel_build.py"
+
+[tool.vercel.fastapi.static]
+cdn = true

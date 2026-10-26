@@ -26,3 +26,6 @@ Thumbs.db
 *.log
 
 # Do not ignore data/snapshot.json: it is the deployable analysis snapshot.
+
+# Generated frontend assets for production deployment
+backend/app/static/
