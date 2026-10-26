@@ -1,0 +1,316 @@
+{
+  "WINDFOR": {
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2025-12-31T00%3A00%3A00Z&publishDateTimeTo=2026-01-31T23%3A59%3A59Z",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size_bytes": 2105753,
+    "transport_error": null,
+    "parse_error": null,
+    "error_details": null,
+    "record_count": 18688,
+    "fields": [
+      "dataset",
+      "generation",
+      "publishTime",
+      "startTime"
+    ],
+    "missing_field_counts": {
+      "dataset": 0,
+      "generation": 0,
+      "publishTime": 0,
+      "startTime": 0
+    },
+    "null_value_counts": {
+      "dataset": 0,
+      "generation": 0,
+      "publishTime": 0,
+      "startTime": 0
+    },
+    "duplicate_record_count": 0,
+    "min_publishTime": "2025-12-31T02:30:00Z",
+    "max_publishTime": "2026-01-31T22:30:00Z",
+    "min_startTime": "2025-12-30T21:00:00Z",
+    "max_startTime": "2026-02-02T21:00:00Z",
+    "start_times_with_multiple_publications_count": 817,
+    "multiple_publication_examples": [
+      {
+        "startTime": "2026-01-30T21:00:00Z",
+        "publishTimes": [
+          "2026-01-28T02:30:00Z",
+          "2026-01-28T04:30:00Z",
+          "2026-01-28T07:30:00Z",
+          "2026-01-28T09:30:00Z",
+          "2026-01-28T11:30:00Z",
+          "2026-01-28T15:30:00Z",
+          "2026-01-28T18:30:00Z",
+          "2026-01-28T22:30:00Z",
+          "2026-01-29T02:30:00Z",
+          "2026-01-29T04:30:00Z",
+          "2026-01-29T07:30:00Z",
+          "2026-01-29T09:30:00Z",
+          "2026-01-29T11:30:00Z",
+          "2026-01-29T15:30:00Z",
+          "2026-01-29T18:30:00Z",
+          "2026-01-29T22:30:00Z",
+          "2026-01-30T02:30:00Z",
+          "2026-01-30T04:30:00Z",
+          "2026-01-30T07:30:00Z",
+          "2026-01-30T09:30:00Z",
+          "2026-01-30T11:30:00Z",
+          "2026-01-30T15:30:00Z",
+          "2026-01-30T18:30:00Z",
+          "2026-01-30T22:30:00Z",
+          "2026-01-31T02:30:00Z",
+          "2026-01-31T04:30:00Z",
+          "2026-01-31T07:30:00Z",
+          "2026-01-31T09:30:00Z",
+          "2026-01-31T11:30:00Z",
+          "2026-01-31T15:30:00Z",
+          "2026-01-31T18:30:00Z",
+          "2026-01-31T22:30:00Z"
+        ]
+      },
+      {
+        "startTime": "2026-01-30T22:00:00Z",
+        "publishTimes": [
+          "2026-01-29T02:30:00Z",
+          "2026-01-29T04:30:00Z",
+          "2026-01-29T07:30:00Z",
+          "2026-01-29T09:30:00Z",
+          "2026-01-29T11:30:00Z",
+          "2026-01-29T15:30:00Z",
+          "2026-01-29T18:30:00Z",
+          "2026-01-29T22:30:00Z",
+          "2026-01-30T02:30:00Z",
+          "2026-01-30T04:30:00Z",
+          "2026-01-30T07:30:00Z",
+          "2026-01-30T09:30:00Z",
+          "2026-01-30T11:30:00Z",
+          "2026-01-30T15:30:00Z",
+          "2026-01-30T18:30:00Z",
+          "2026-01-30T22:30:00Z",
+          "2026-01-31T02:30:00Z",
+          "2026-01-31T04:30:00Z",
+          "2026-01-31T07:30:00Z",
+          "2026-01-31T09:30:00Z",
+          "2026-01-31T11:30:00Z",
+          "2026-01-31T15:30:00Z",
+          "2026-01-31T18:30:00Z",
+          "2026-01-31T22:30:00Z"
+        ]
+      },
+      {
+        "startTime": "2026-01-30T23:00:00Z",
+        "publishTimes": [
+          "2026-01-29T02:30:00Z",
+          "2026-01-29T04:30:00Z",
+          "2026-01-29T07:30:00Z",
+          "2026-01-29T09:30:00Z",
+          "2026-01-29T11:30:00Z",
+          "2026-01-29T15:30:00Z",
+          "2026-01-29T18:30:00Z",
+          "2026-01-29T22:30:00Z",
+          "2026-01-30T02:30:00Z",
+          "2026-01-30T04:30:00Z",
+          "2026-01-30T07:30:00Z",
+          "2026-01-30T09:30:00Z",
+          "2026-01-30T11:30:00Z",
+          "2026-01-30T15:30:00Z",
+          "2026-01-30T18:30:00Z",
+          "2026-01-30T22:30:00Z",
+          "2026-01-31T02:30:00Z",
+          "2026-01-31T04:30:00Z",
+          "2026-01-31T07:30:00Z",
+          "2026-01-31T09:30:00Z",
+          "2026-01-31T11:30:00Z",
+          "2026-01-31T15:30:00Z",
+          "2026-01-31T18:30:00Z",
+          "2026-01-31T22:30:00Z"
+        ]
+      },
+      {
+        "startTime": "2026-01-31T00:00:00Z",
+        "publishTimes": [
+          "2026-01-29T02:30:00Z",
+          "2026-01-29T04:30:00Z",
+          "2026-01-29T07:30:00Z",
+          "2026-01-29T09:30:00Z",
+          "2026-01-29T11:30:00Z",
+          "2026-01-29T15:30:00Z",
+          "2026-01-29T18:30:00Z",
+          "2026-01-29T22:30:00Z",
+          "2026-01-30T02:30:00Z",
+          "2026-01-30T04:30:00Z",
+          "2026-01-30T07:30:00Z",
+          "2026-01-30T09:30:00Z",
+          "2026-01-30T11:30:00Z",
+          "2026-01-30T15:30:00Z",
+          "2026-01-30T18:30:00Z",
+          "2026-01-30T22:30:00Z",
+          "2026-01-31T02:30:00Z",
+          "2026-01-31T04:30:00Z",
+          "2026-01-31T07:30:00Z",
+          "2026-01-31T09:30:00Z",
+          "2026-01-31T11:30:00Z",
+          "2026-01-31T15:30:00Z",
+          "2026-01-31T18:30:00Z",
+          "2026-01-31T22:30:00Z"
+        ]
+      },
+      {
+        "startTime": "2026-01-31T01:00:00Z",
+        "publishTimes": [
+          "2026-01-29T02:30:00Z",
+          "2026-01-29T04:30:00Z",
+          "2026-01-29T07:30:00Z",
+          "2026-01-29T09:30:00Z",
+          "2026-01-29T11:30:00Z",
+          "2026-01-29T15:30:00Z",
+          "2026-01-29T18:30:00Z",
+          "2026-01-29T22:30:00Z",
+          "2026-01-30T02:30:00Z",
+          "2026-01-30T04:30:00Z",
+          "2026-01-30T07:30:00Z",
+          "2026-01-30T09:30:00Z",
+          "2026-01-30T11:30:00Z",
+          "2026-01-30T15:30:00Z",
+          "2026-01-30T18:30:00Z",
+          "2026-01-30T22:30:00Z",
+          "2026-01-31T02:30:00Z",
+          "2026-01-31T04:30:00Z",
+          "2026-01-31T07:30:00Z",
+          "2026-01-31T09:30:00Z",
+          "2026-01-31T11:30:00Z",
+          "2026-01-31T15:30:00Z",
+          "2026-01-31T18:30:00Z",
+          "2026-01-31T22:30:00Z"
+        ]
+      }
+    ],
+    "representative_records": [
+      {
+        "dataset": "WINDFOR",
+        "publishTime": "2026-01-31T22:30:00Z",
+        "startTime": "2026-01-30T21:00:00Z",
+        "generation": 17683
+      },
+      {
+        "dataset": "WINDFOR",
+        "publishTime": "2026-01-31T22:30:00Z",
+        "startTime": "2026-01-30T22:00:00Z",
+        "generation": 17313
+      },
+      {
+        "dataset": "WINDFOR",
+        "publishTime": "2026-01-31T22:30:00Z",
+        "startTime": "2026-01-30T23:00:00Z",
+        "generation": 17030
+      }
+    ]
+  },
+  "FUELHH": {
+    "url": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?settlementDateFrom=2026-01-01&settlementDateTo=2026-01-31&fuelType=WIND",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "size_bytes": 269971,
+    "transport_error": null,
+    "parse_error": null,
+    "error_details": null,
+    "record_count": 1488,
+    "fields": [
+      "dataset",
+      "fuelType",
+      "generation",
+      "publishTime",
+      "settlementDate",
+      "settlementPeriod",
+      "startTime"
+    ],
+    "missing_field_counts": {
+      "dataset": 0,
+      "fuelType": 0,
+      "generation": 0,
+      "publishTime": 0,
+      "settlementDate": 0,
+      "settlementPeriod": 0,
+      "startTime": 0
+    },
+    "null_value_counts": {
+      "dataset": 0,
+      "fuelType": 0,
+      "generation": 0,
+      "publishTime": 0,
+      "settlementDate": 0,
+      "settlementPeriod": 0,
+      "startTime": 0
+    },
+    "duplicate_record_count": 0,
+    "min_publishTime": "2026-01-01T00:30:00Z",
+    "max_publishTime": "2026-02-01T00:00:00Z",
+    "min_startTime": "2026-01-01T00:00:00Z",
+    "max_startTime": "2026-01-31T23:30:00Z",
+    "start_times_with_multiple_publications_count": 0,
+    "multiple_publication_examples": [],
+    "representative_records": [
+      {
+        "dataset": "FUELHH",
+        "publishTime": "2026-02-01T00:00:00Z",
+        "startTime": "2026-01-31T23:30:00Z",
+        "settlementDate": "2026-01-31",
+        "settlementPeriod": 48,
+        "fuelType": "WIND",
+        "generation": 8849
+      },
+      {
+        "dataset": "FUELHH",
+        "publishTime": "2026-01-31T23:30:00Z",
+        "startTime": "2026-01-31T23:00:00Z",
+        "settlementDate": "2026-01-31",
+        "settlementPeriod": 47,
+        "fuelType": "WIND",
+        "generation": 9130
+      },
+      {
+        "dataset": "FUELHH",
+        "publishTime": "2026-01-31T23:00:00Z",
+        "startTime": "2026-01-31T22:30:00Z",
+        "settlementDate": "2026-01-31",
+        "settlementPeriod": 46,
+        "fuelType": "WIND",
+        "generation": 9320
+      }
+    ]
+  },
+  "sample_match": {
+    "cutoff_exclusive": "2026-01-01T12:00:00Z",
+    "shared_startTime_count": 720,
+    "eligible_numeric_matches": 46,
+    "first_match": {
+      "startTime": "2026-01-02T00:00:00Z",
+      "cutoffExclusive": "2026-01-01T12:00:00Z",
+      "forecast": {
+        "dataset": "WINDFOR",
+        "publishTime": "2026-01-01T11:30:00Z",
+        "startTime": "2026-01-02T00:00:00Z",
+        "generation": 18800
+      },
+      "actual": {
+        "dataset": "FUELHH",
+        "publishTime": "2026-01-02T00:30:00Z",
+        "startTime": "2026-01-02T00:00:00Z",
+        "settlementDate": "2026-01-02",
+        "settlementPeriod": 1,
+        "fuelType": "WIND",
+        "generation": 15228
+      },
+      "error_forecast_minus_actual": 3572,
+      "absolute_error": 3572
+    }
+  },
+  "january_delivery_coverage": {
+    "forecast_unique_startTime_in_january": 744,
+    "actual_unique_startTime_in_january": 1488,
+    "exact_timestamp_overlap_in_january": 744,
+    "actual_periods_without_exact_forecast_startTime": 744
+  }
+}

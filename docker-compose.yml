@@ -1,0 +1,12 @@
+services:
+  wind-intelligence:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: "8000"
+      SNAPSHOT_PATH: /app/data/snapshot.json
+      CORS_ORIGINS: http://localhost:5173
+    restart: unless-stopped
